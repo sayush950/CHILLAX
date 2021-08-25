@@ -15,7 +15,6 @@ A few resources to get you started if this is your first Web Development Project
 
 [Font Awesome Icons]([https://fontawesome.com/v5.15/icons?d=gallery&p=2](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
 
-
 [Google Fonts](https://fonts.google.com/)
 
 
