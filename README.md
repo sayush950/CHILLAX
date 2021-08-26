@@ -12,8 +12,6 @@ A few resources to get you started if this is your first Web Development Project
 
 - [Placeholder text used in design](https://www.lipsum.com/)
 
-- [Introduction to Bootstrap](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
-
 - [Google Fonts](https://fonts.google.com/)
 
 
