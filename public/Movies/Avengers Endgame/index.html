@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Avengers: Endgame</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="logo.png" type="image/png" size="16x16">
+</head>
+<body>
+      <!-- head -->
+      <header>
+            <a href="#" class="logo"><img src="logo.png" alt="logo" width="140" height="80"></a>
+            <div class="toggle"><a href="http://localhost/CHILLAX/index1.php"><img src="toggle.png" alt=""></a></div>
+      </header>
+
+      
+      <div class="banner">
+            <div class="content">
+                  <h2><span>Avengers: Endgame</span></h2>
+                  <p>Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers:- Thor, Black Widow, Captain America and Bruce Banner must figure out a way to bring back their vanquished allies for an epic showdown with Thanos, the evil demigod who decimated the planet and the universe.
+                  </p>
+                  <a href="#" class="play" onclick="toggle()"><img src="play.png" alt="Watch Now">Watch Now</a>
+                  <br><br>
+                  <a href="https://links.mflixblog.xyz/archives/1522" class="play" target="blank"><img src="play.png" alt="Download Now">Download Now</a>
+            </div>
+      </div>
+
+      <!-- Trailer -->
+      <div class="trailer">
+            <video src="video.mp4" controls="true"></video>
+            <img src="close.png" alt="Close" class="close" onclick="toggle()">
+      </div>
+
+
+      <script>
+            function toggle(){
+            var trailer=document.querySelector('.trailer');
+            let video=document.querySelector('.video');
+            trailer.classList.toggle('active');
+            video.currentTime = 0;
+            video.pause();
+        }
+      </script>
+     
+      
+</body>
+</html>

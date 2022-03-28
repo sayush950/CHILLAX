@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Spiderman: Into The Spiderverse</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="logo.png" type="image/png" size="16x16">
+</head>
+<body>
+      <!-- head -->
+      <header>
+            <a href="#" class="logo"><img src="logo.png" alt="logo" width="190" height="90"></a>
+            <div class="toggle"><a href="http://localhost/CHILLAX/index1.php"><img src="toggle.png" alt=""></a></div>
+      </header>
+
+      <!-- Content -->
+      <div class="banner">
+            <div class="content">
+                  <h2><span>Spiderman: Into The Spiderverse</span></h2>
+                  <p>Bitten by a radioactive spider in the subway, Brooklyn teenager Miles Morales suddenly develops mysterious powers that transform him into the one and only Spider-Man. When he meets Peter Parker, he soon realizes that there are many others who share his special, high-flying talents. Miles must now use his newfound skills to battle the evil Kingpin, a hulking madman who can open portals to other universes and pull different versions of Spider-Man into our world.
+                  </p>
+                  <a href="#" class="play" onclick="toggle()"><img src="play.png" alt="Watch Now">Watch Now</a>
+                  <br><br>
+                  <a href="https://links.mflixblog.xyz/archives/1614" class="play" target="blank"><img src="play.png" alt="Download Now">Download Now</a>
+            </div>
+      </div>
+
+      <!-- Trailer -->
+      <div class="trailer">
+            <video src="video.mp4" controls="true"></video>
+            <img src="close.png" alt="Close" onclick="toggle()" class="close">
+      </div>
+
+
+      <script>
+            function toggle(){
+            var trailer=document.querySelector('.trailer');
+            let video=document.querySelector('.video');
+            trailer.classList.toggle('active');
+            video.currentTime = 0;
+            video.pause();
+        }
+      </script>
+    
+      
+</body>
+</html>

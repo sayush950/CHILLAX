@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Shang-Chi</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="logo.png" type="image/png" size="16x16">
+</head>
+<body>
+      <!-- head -->
+      <header>
+            <a href="#" class="logo"><img src="logo.png" alt="logo" width="40" height="80"></a>
+            <div class="toggle"><a href="http://localhost/CHILLAX/index1.php"><img src="toggle.png" alt=""></a></div>
+      </header>
+
+      <!-- Content -->
+      <div class="banner">
+            <div class="content">
+                  <h2><span>Shang-Chi</span></h2>
+                  <p>Shang-Chi also known as the Master of Kung Fu and Brother Hand, is a superhero appearing in American comic books published by Marvel Comics. The character was created by writer Steve Englehart and artist Jim Starlin, debuting in Special Marvel Edition #15 (cover-dated December 1973) in the Bronze Age of Comic Books, and starring in his own solo title until 1983. Shang-Chi is proficient in numerous unarmed and weaponry-based wushu styles, including the use of the gùn, nunchaku, and jian.
+                  Shang-Chi was spun off from novelist Sax Rohmer's licensed property....
+                  </p>
+                  <a href="#" class="play" onclick="toggle()"><img src="play.png" alt="Watch Now">Watch Now</a>
+                  <br><br>
+                  <a href="https://links.mflixblog.xyz/archives/37439" class="play" target="blank"><img src="play.png" alt="Download Now">Download Now</a>
+            </div>
+      </div>
+
+      <!-- Trailer -->
+      <div class="trailer">
+            <video src="video.mp4" controls="true"></video>
+            <img src="close.png" alt="Close" onclick="toggle()" class="close">
+      </div>
+
+
+      <script>
+            function toggle(){
+            var trailer=document.querySelector('.trailer');
+            let video=document.querySelector('.video');
+            trailer.classList.toggle('active');
+            video.currentTime = 0;
+            video.pause();
+        }
+      </script>
+    
+      
+</body>
+</html>
