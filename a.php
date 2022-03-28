@@ -16,6 +16,11 @@
 <link rel="stylesheet" href="a.css">
 </head>
 <body>
+<section class="container">
+    <div class="head">
+            <img src="Login-Images/logo.png" alt="logo">
+    </div>
+</section>
 <div class="signup-form">
     
     <form method="POST" action="index1.php">

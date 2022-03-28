@@ -26,7 +26,12 @@ header .toggle{
       width: 100%;
       min-height: 100vh;
       padding: 0 100px;
-      background: url(1.jpg);
+      background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("1.jpg");
       background-position: center;
       background-size: cover;
       display: flex;
@@ -91,7 +96,7 @@ header .toggle{
       opacity: 1;
 }
 .trailer video{
-      min-width: 900px;
+      min-width: 320px;
       outline:none;
 }
 .trailer .close{

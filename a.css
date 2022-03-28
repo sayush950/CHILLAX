@@ -5,6 +5,27 @@ body {
 	font-family: 'Roboto', sans-serif;
 	
 }
+.container .head {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 50px;
+	z-index: 100000000;
+}
+.container .head img {
+	width: 13%;
+}
+.container .head a{
+	color: #fff;
+	text-decoration: none;
+	background-color: #e50914;
+	padding: 8px 18px;
+	border-radius: 5px;
+}
 .form-control{
 	height: 40px;
 	box-shadow: none;

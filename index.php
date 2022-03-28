@@ -9,6 +9,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" type="text/css" href="index.css">
       <title>CHILLAX</title>
+      <link rel="icon" href="Login-Images/movie-play-regular-24.png" type="image/png" size="16x16">
 </head>
 <body>
       <!-- Header -->
@@ -96,13 +97,13 @@
       </section>
 
       <footer id="footer">
-            <a href="tel:+91 9140848438"><p>Questions? Call Us: +91 9140848438</p></a>
+            <a href="tel:+91 9140848438"><p>Questions? Call Me: +91 9140848438</p></a>
             <br>
-            <a href="mailto:sayush950@gmail.com"><p>Email Us: @sayush950@gmail.com</p></a>
+            <a href="mailto:sayush950@gmail.com"><p>Email Me: @sayush950@gmail.com</p></a>
             <br>
             <p>Created By: Ayush Singh</p>
             <br>
-            <p>&copy; Copyright  <script>document.write(new Date().getFullYear())</script> <a href="index.html" class="footername">CHILLAX</a></p>
+            <p>&copy; Copyright  <script>document.write(new Date().getFullYear())</script> <a href="index.php" class="footername">CHILLAX</a></p>
         </footer>
 
       
